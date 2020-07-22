@@ -11,7 +11,7 @@ public class App {
     {
 		CalculateInterest c = new CalculateInterest();
 		
-		LOGGER.info("Simple Interest : " + c.calculateSimpleInterest(10000, 3, 2));
+		LOGGER.error("Simple Interest : " + c.calculateSimpleInterest(10000, 3, 2));
 		LOGGER.info("Simple Interest : " + c.calculateSimpleInterest(15000, 1.5, 2.5));
 		
 		LOGGER.info("Compound Interest : " + c.calculateCompoundInterest(10090, 3, 2));
